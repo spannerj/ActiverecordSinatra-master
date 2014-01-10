@@ -2,6 +2,7 @@
 require 'sinatra'
 require 'sinatra/activerecord'
 require 'json'
+require 'pg'
 
 set :database, 'postgres://sjago:sjago@localhost/activerecord_sinatra'
 
